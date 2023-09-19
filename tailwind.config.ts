@@ -2,7 +2,10 @@
 export default {
   content: ["./src/**/*.{html,js,vue}"],
   theme: {
-    extend: {}
+    extend: {},
+    fontFamily: {
+      Roboto: ['Roboto, sans-serif']
+    }
   },
   plugins: [],
 }
