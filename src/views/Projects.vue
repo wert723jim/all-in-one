@@ -8,18 +8,19 @@
       </div> -->
       <NavTabs :tabs="tabs" @tab="filterByTab"/>
       <div class="flex flex-col gap-5 my-5">
-        <ProjectCard v-for="project in projectsList" :key="project.id" :project="project"/>
+        <ProjectCard v-for="project in filteredProjectsList" :key="project.id" :project="project"/>
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import ProjectCard from '../components/ProjectCard.vue'
 import NavTabs from '../components/NavTabs.vue'
 import { projectsList } from '../data/projects'
 const tabs = ref<string[]>(['All'])
+const chosenTab = ref('All')
 
 const getTabs = () => {
   projectsList.forEach(i => {
@@ -30,10 +31,19 @@ const getTabs = () => {
     })
   })
 }
+getTabs()
 
 const filterByTab = (tab: string) => {
-  console.log(tab)
+  chosenTab.value = tab
 }
 
-getTabs()
+
+const filteredProjectsList = computed(() => {
+  if (chosenTab.value === 'All') {
+    return projectsList
+  }
+  return projectsList.filter(i => {
+    return i.tags.includes(chosenTab.value)
+  })
+})
 </script>
