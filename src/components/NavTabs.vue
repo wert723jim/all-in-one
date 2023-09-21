@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span v-for="tab in tabs" :key="tab" @click="tabClicked(tab)" :class="{'bg-black text-white': chosenTab === tab, 'bg-white text-black': chosenTab !==tab}" class="inline-block rounded-2xl text-xs px-2 py-1 leading-none mr-1 cursor-pointer">{{ tab }}</span>
+    <span v-for="tab in tabs" :key="tab" @click="tabClicked(tab)" :class="{'bg-black text-white': chosenTab === tab, 'bg-white text-black': chosenTab !==tab}" class="inline-block rounded-xl text-xs px-2 py-1 leading-none mr-1 cursor-pointer border border-black">{{ tab }}</span>
   </div>
 </template>
 
