@@ -20,5 +20,15 @@ export const projectsList: Project[] = [
       'Sass'
     ],
     img: 'src/assets/simple-twitter.png'
+  },
+  {
+    id: '3',
+    name: 'Restaurant Forum',
+    description: "餐廳論壇，登入、登出、註冊功能，可以根據分類顯示餐廳，餐廳評論留言、個人資訊頁面、收藏餐廳、點讚餐廳，後台建立、刪除、編輯餐廳資訊，建立、刪除、編輯餐廳分類。",
+    tags: [
+      'Vue2',
+      'Bootstrap'
+    ],
+    img: 'src/assets/forum.png'
   }
 ]
