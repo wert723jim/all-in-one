@@ -14,7 +14,6 @@
       <div :class="{'scale-y-100': isActive}" class="navbar-menu bg-white absolute top-[50px] w-full origin-top ease-out scale-y-0 duration-200 lg:static lg:flex lg:transform-none">
         <div class="flex flex-col lg:flex-row lg:flex-1">
           <router-link @click="toggleMenu" class="flex items-center px-4 py-2 justify-center" to="/projects">作品集</router-link>
-          <router-link @click="toggleMenu" class="flex items-center px-4 py-2 justify-center" to="/categories">分類</router-link>
           <router-link @click="toggleMenu" class="flex items-center px-4 py-2 justify-center" to="/about">關於我</router-link>
         </div>
         <div class="flex justify-center min-h-[40px]">
