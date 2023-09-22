@@ -9,7 +9,7 @@ export const projectsList: Project[] = [
       'Vue3',
       'TailwindCSS'
     ],
-    img: 'src/assets/world-weather-app.png'
+    img: 'world-weather-app.png'
   },
   {
     id: '2',
@@ -19,7 +19,7 @@ export const projectsList: Project[] = [
       'Vue2',
       'Sass'
     ],
-    img: 'src/assets/simple-twitter.png'
+    img: 'simple-twitter.png'
   },
   {
     id: '3',
@@ -29,6 +29,6 @@ export const projectsList: Project[] = [
       'Vue2',
       'Bootstrap'
     ],
-    img: 'src/assets/forum.png'
+    img: 'forum.png'
   }
 ]

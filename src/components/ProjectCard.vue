@@ -2,7 +2,7 @@
   <div class="bg-white w-full shadow-md cursor-pointer hover:shadow-xl ease-out duration-300 md:flex">
       <div class="w-full md:w-[280px]">
         <div class="pb-[56%] relative md:pb-[70%]">
-          <img class="h-full w-full object-cover absolute top-0 left-0" :src="project.img" alt="">
+          <img class="h-full w-full object-cover absolute top-0 left-0" :src="getImgUrl(project.img)" alt="">
         </div>
       </div>
       <div class="flex-1 text-left p-5">
@@ -24,4 +24,8 @@ defineProps({
     required: true
   }
 })
+
+const getImgUrl = (pic: string) => {
+  return new URL(`../assets/${pic}`, import.meta.url).href
+}
 </script>
