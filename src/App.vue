@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen font-Roboto">
+  <div class="min-h-screen font-Roboto w-screen">
     <NavBar />
     <router-view></router-view>
   </div>
@@ -11,4 +11,7 @@ import NavBar from './components/NavBar.vue';
 
 
 <style>
+#app {
+  overflow: hidden;
+}
 </style>

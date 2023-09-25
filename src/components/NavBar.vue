@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed left-0 right-0 top-0 border-b-2 bg-white z-30">
+  <nav class="fixed left-0 right-0 top-0 border-b-2 bg-white z-30 w-screen">
     <div class="mx-auto lg:max-w-[800px] lg:flex">
       <div class="navbar-brand flex">
         <div>
