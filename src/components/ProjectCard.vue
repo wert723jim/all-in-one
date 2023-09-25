@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white w-full shadow-md cursor-pointer hover:shadow-xl ease-out duration-300 md:flex">
+  <div class="bg-white w-full shadow-md hover:shadow-xl ease-out duration-300 md:flex">
       <div class="w-full md:w-[280px]">
         <div class="pb-[56%] relative md:pb-[70%]">
           <img class="h-full w-full object-cover absolute top-0 left-0" :src="getImgUrl(project.img)" alt="">
@@ -10,6 +10,11 @@
           <span v-for="tag in project.tags" :key="tag" class="inline-block rounded-2xl text-xs bg-black text-white px-2 py-1 leading-none mr-1">{{ tag }}</span>
         </div>
         <h2 class="text-2xl">{{ project.name }}</h2>
+        <div>
+          <a target="_blank" :href="project.link">
+            Link
+          </a>
+        </div>
       </div>
     </div>
 </template>

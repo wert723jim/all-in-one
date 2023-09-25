@@ -9,7 +9,8 @@ export const projectsList: Project[] = [
       'Vue3',
       'TailwindCSS'
     ],
-    img: 'world-weather-app.png'
+    img: 'world-weather-app.png',
+    link: 'https://github.com/wert723jim/world_weather_app'
   },
   {
     id: '2',
@@ -20,7 +21,8 @@ export const projectsList: Project[] = [
       'Sass',
       'Vuex'
     ],
-    img: 'simple-twitter.png'
+    img: 'simple-twitter.png',
+    link: 'https://github.com/wert723jim/simple-twitter-front-end-vue'
   },
   {
     id: '3',
@@ -31,7 +33,8 @@ export const projectsList: Project[] = [
       'Bootstrap',
       'Vuex'
     ],
-    img: 'forum.png'
+    img: 'forum.png',
+    link: 'https://github.com/wert723jim/forum-front-end-vue'
   },
   {
     id: '4',
@@ -41,7 +44,8 @@ export const projectsList: Project[] = [
       'Vue3',
       'TypeScript'
     ],
-    img: 'job-list.png'
+    img: 'job-list.png',
+    link: 'https://github.com/wert723jim/jobs-list'
   },
   {
     id: '5',
@@ -51,7 +55,8 @@ export const projectsList: Project[] = [
       'Nuxt3',
       'TailwindCSS'
     ],
-    img: 'portfolio.png'
+    img: 'portfolio.png',
+    link: 'https://github.com/wert723jim/portfolio'
   },
   {
     id: '6',
@@ -60,7 +65,8 @@ export const projectsList: Project[] = [
     tags: [
       'Vue3'
     ],
-    img: 'reaction-timer.png'
+    img: 'reaction-timer.png',
+    link: 'https://github.com/wert723jim/reaction-timer'
   },
   {
     id: '7',
@@ -69,7 +75,8 @@ export const projectsList: Project[] = [
     tags: [
       'JavaScript'
     ],
-    img: 'ad_schedule_sys.png'
+    img: 'ad_schedule_sys.png',
+    link: 'https://github.com/wert723jim/ad_schedule_sys'
   },
   {
     id: '8',
@@ -79,7 +86,8 @@ export const projectsList: Project[] = [
       'JavaScript',
       'Sass'
     ],
-    img: 'kol_ad_platform.png'
+    img: 'kol_ad_platform.png',
+    link: 'https://github.com/wert723jim/kol_ad_platform'
   },
   {
     id: '9',
@@ -88,7 +96,8 @@ export const projectsList: Project[] = [
     tags: [
       'JavaScript'
     ],
-    img: 'memorizing_card_game.png'
+    img: 'memorizing_card_game.png',
+    link: 'https://github.com/wert723jim/memorizing_card_game'
   },
   {
     id: '10',
@@ -97,6 +106,7 @@ export const projectsList: Project[] = [
     tags: [
       '切版'
     ],
-    img: 'pet-planet.png'
+    img: 'pet-planet.png',
+    link: 'https://github.com/wert723jim/pet_planet'
   }
 ]
