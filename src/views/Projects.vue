@@ -1,7 +1,7 @@
 <template>
-  <section class="section min-h-screen bg-[#f6f7f8]">
+  <section class="section min-h-screen bg-[#f6f7f8] dark:bg-black">
     <div class="container pb-5">
-      <h1 class="text-6xl font-semibold">作品集</h1>
+      <h1 class="text-6xl font-semibold dark:text-white">作品集</h1>
       <!-- <div>
         <span class="inline-block rounded-2xl text-xs bg-black text-white px-2 py-1 leading-none mr-1 cursor-pointer">Vue3</span>
         <span class="inline-block rounded-2xl text-xs bg-white text-black px-2 py-1 leading-none mr-1 cursor-pointer">TailwindCSS</span>
